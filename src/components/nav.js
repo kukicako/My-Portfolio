@@ -9,7 +9,7 @@ function Nav(){
                 <p className="title-text">-Web Developer</p>
             </div>
             <div className="nav-links">
-                <a className="portfolio">Github</a>
+                <a href="https://github.com/kukicako" className="portfolio" >Github</a>
                 <a className="portfolio">Portfolio</a>
                 <a className="portfolio">About Me</a>
                 <a className="portfolio">Hire Me</a>
