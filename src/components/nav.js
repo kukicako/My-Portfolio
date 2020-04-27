@@ -12,8 +12,8 @@ function Nav(){
                 <a href="https://github.com/kukicako" className="portfolio" >Github</a>
                 <a className="portfolio">Portfolio</a>
                 <a className="portfolio">About Me</a>
-                <a className="portfolio">Hire Me</a>
-                <img className="nav-image" src={code} alt="coder"></img>
+                <a className="portfolio">Contact</a>
+                {/* <img className="nav-image" src={code} alt="coder"></img> */}
 
                 
                 
