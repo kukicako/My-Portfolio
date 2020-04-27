@@ -14,10 +14,10 @@ function Homepage(){
                 <div className="opening-text">
                     <p>Software Engineer with a passion for JavaScript, React, CSS, Less, and Node.</p>
                 </div>
-                <div className="opening-button">
+                <a href="#homepage-anchor" className="opening-button">
                     <p className="showcase">Showcase</p>
                     <img src={down} alt="down arrow" className="down-arrow"></img>
-                </div>
+                </a>
             </div>
 
             <div className="projects-container">
@@ -28,18 +28,19 @@ function Homepage(){
                     <a className="link" href="https://pathways-fe-omega.now.sh/game"><img className="pathways" src={pathways} alt="Pathways To Destiny"></img></a>
                 </div>
                 <div className="project3">
-                   <a className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
+                   <a id="homepage-anchor" className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
                     
                 </div>
 
             </div>
+
             
             <div className="projects-container">
                 <div className="project4">
                     <a className="link" href="https://weight-lifting-journal-getswole.netlify.app/"><img className="swole" src={swole} alt="swole" /></a>
                 </div>
                 <div className="project5">
-                     <a classname="link" href="https://serve-soup.netlify.app/"><img className="soup" src={soup} alt="ill serve soup" /></a>
+                     <a  classname="link" href="https://serve-soup.netlify.app/"><img className="soup" src={soup} alt="ill serve soup" /></a>
                 </div>
                 <div className="project6">
                     <a className="link" href="https://build-week-corporate-event-planner-rm.github.io/Marketing/"><div className="planner">

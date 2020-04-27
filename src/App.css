@@ -218,6 +218,9 @@ background-color: rgb(232, 226, 243);
 
 
 }
+.opening-button:hover{
+  color:black !important;
+}
 
 .down-arrow{
   /* border-bottom:2px solid black; */

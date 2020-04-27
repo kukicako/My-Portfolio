@@ -26,8 +26,8 @@ function footer(){
                     <a href="https://github.com/kukicako"><img className="facebook" src={git}></img> </a>
                 </div>
 
-                <div  className="footer-images">
-                <a href = "mailto:abc@example.com?subject = Feedbackbody = Message"><img className="facebook" src={gmail}></img></a>
+                <div id="contact-me" className="footer-images">
+                <a href = "mailto:kukicako1@gmail.com?subject = Feedbackbody = Message"><img className="facebook" src={gmail}></img></a>
                 </div>
             </div>
             
