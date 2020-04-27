@@ -19,7 +19,7 @@ function Homepage(){
                     <img src={down} alt="down arrow" className="down-arrow"></img>
                 </a>
             </div>
-
+            <div id="homepage-anchor" />
             <div className="projects-container">
                 <div className="project1">
                    <a className="link" href="https://v1.citrics.io/"> <img className="citrics" src={citrics } alt="website1"></img></a>
@@ -28,7 +28,7 @@ function Homepage(){
                     <a className="link" href="https://pathways-fe-omega.now.sh/game"><img className="pathways" src={pathways} alt="Pathways To Destiny"></img></a>
                 </div>
                 <div className="project3">
-                   <a id="homepage-anchor" className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
+                   <a  className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
                     
                 </div>
 
