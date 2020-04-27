@@ -54,8 +54,8 @@ function Homepage(){
 
             <div className="conclusion">
                 <p className="conclusion-title">What Do I Bring?</p>
-                <p className="conclusion-text"> FrontEnd/Backend/data management</p>
-                <p className="conclusion-text"> Aiding in the implementation, customization and integrations for third-party software</p>
+                <p className="conclusion-text"> Front-End/Back-End/Data Management</p>
+                <p className="conclusion-text"> Aiding in the implementation, customization and integrations of third-party software</p>
                 <p className="conclusion-text"> Develop and implement frontend web code and design standards for writing clean, semantic code</p>
                 <p className="conclusion-text"> Experience working within a cross-functional team of front-end and back-end engineers, data scientists and UI/UX</p>
             

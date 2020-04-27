@@ -10,7 +10,7 @@ function Nav(){
             </div>
             <div className="nav-links">
                 <a href="https://github.com/kukicako" className="portfolio" >Github</a>
-                <a className="portfolio">Portfolio</a>
+                <a href="https://my-portfolio-my6kk1jm4.now.sh/" className="portfolio">Portfolio</a>
                 <a className="portfolio">About Me</a>
                 <a className="portfolio">Contact</a>
                 {/* <img className="nav-image" src={code} alt="coder"></img> */}

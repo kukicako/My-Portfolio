@@ -13,6 +13,7 @@ function footer(){
 
             </div>
             <div className="footer-links">
+                <p className="footer-contact">Contact:</p>
                 <div className="footer-images">
                     <a href="https://www.facebook.com/kukicako"><img className="facebook" src={facebook}></img></a>
                 </div>
