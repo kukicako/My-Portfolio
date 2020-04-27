@@ -6,21 +6,17 @@ import pathways from '../images/pathways.png'
 import swole from '../images/swole.png'
 import soup from '../images/soup.png'
 import mouse from '../images/mouse.png'
+import down from '../images/down.png'
 function Homepage(){
     return(
         <div className="homepage">
             <div className="opening">
-                <div className="opening-image">
-                    <div className="image-container">
-                        {/* <img className="tree2" src={tree2} alt="tree"></img> */}
-                        <img className="tree" src={tree} alt="tree"></img>
-                    </div>
-                </div>
                 <div className="opening-text">
                     <p>Software Engineer with a passion for JavaScript, React, CSS, Less, and Node.</p>
                 </div>
                 <div className="opening-button">
-                    <button className="but-on">My Projects</button>
+                    <p className="showcase">Showcase</p>
+                    <img src={down} alt="down arrow" className="down-arrow"></img>
                 </div>
             </div>
 
@@ -29,10 +25,10 @@ function Homepage(){
                    <a className="link" href="https://v1.citrics.io/"> <img className="citrics" src={citrics } alt="website1"></img></a>
                 </div>
                 <div className="project2">
-                    <img className="pathways" src={pathways} alt="Pathways To Destiny"></img>
+                    <a className="link" href="https://pathways-fe-omega.now.sh/game"><img className="pathways" src={pathways} alt="Pathways To Destiny"></img></a>
                 </div>
                 <div className="project3">
-                    <p className="teacher">CSGO-Teacher</p>
+                   <a className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
                     
                 </div>
 
@@ -40,17 +36,17 @@ function Homepage(){
             
             <div className="projects-container">
                 <div className="project4">
-                    <img className="swole" src={swole} alt="swole" />
+                    <a className="link" href="https://weight-lifting-journal-getswole.netlify.app/"><img className="swole" src={swole} alt="swole" /></a>
                 </div>
                 <div className="project5">
-                     <img className="soup" src={soup} alt="ill serve soup" />
+                     <a classname="link" href="https://serve-soup.netlify.app/"><img className="soup" src={soup} alt="ill serve soup" /></a>
                 </div>
                 <div className="project6">
-                    <div className="planner">
+                    <a className="link" href="https://build-week-corporate-event-planner-rm.github.io/Marketing/"><div className="planner">
                         <img className="mouse" src={mouse} alt="mouse"></img> 
                         <p className="plan">One Click</p>
-                        <p className="plan1">Planning</p>   
-                    </div>
+                        <p className="plan1">Planning</p> 
+                    </div></a>  
                     
                 </div>
 
@@ -58,11 +54,11 @@ function Homepage(){
 
             <div className="conclusion">
                 <p className="conclusion-title">What Do I Bring?</p>
-                <p className="conclusion-text"> a little bit of this</p>
-                <p className="conclusion-text"> and a little bit of that</p>
-                <p className="conclusion-text"> and a little bit of that</p>
-                <p className="conclusion-text"> and a little bit of that</p>
-                
+                <p className="conclusion-text"> FrontEnd/Backend/data management</p>
+                <p className="conclusion-text"> Aiding in the implementation, customization and integrations for third-party software</p>
+                <p className="conclusion-text"> Develop and implement frontend web code and design standards for writing clean, semantic code</p>
+                <p className="conclusion-text"> Experience working within a cross-functional team of front-end and back-end engineers, data scientists and UI/UX</p>
+            
                 
             </div>
 
