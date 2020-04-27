@@ -1,5 +1,5 @@
 import React from 'react';
-import code from '../images/code.jpg'
+// import code from '../images/code.jpg'
 
 function Nav(){
     return(
