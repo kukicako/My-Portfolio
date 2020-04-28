@@ -1,5 +1,5 @@
 import React from 'react';
-import tree from '../images/tree.png'
+// import tree from '../images/tree.png'
 // import tree2 from '../images/tree2.png'
 import citrics from '../images/citrics.png'
 import pathways from '../images/pathways.png'
