@@ -15,19 +15,19 @@ function footer(){
             <div className="footer-links">
                 <p className="footer-contact">Contact:</p>
                 <div className="footer-images">
-                    <a href="https://www.facebook.com/kukicako"><img className="facebook" src={facebook}></img></a>
+                    <a href="https://www.facebook.com/kukicako"><img className="facebook" src={facebook} alt="facebook"></img></a>
                 </div>
 
                 <div className="footer-images">
-                    <a href="https://twitter.com/MuamerKukic"><img className="facebook" src={twitter}></img></a>
+                    <a href="https://twitter.com/MuamerKukic"><img className="facebook" src={twitter} alt="twitter"></img></a>
                 </div>
 
                 <div  className="footer-images">
-                    <a href="https://github.com/kukicako"><img className="facebook" src={git}></img> </a>
+                    <a href="https://github.com/kukicako"><img className="facebook" src={git} alt="github"></img> </a>
                 </div>
 
                 <div id="contact-me" className="footer-images">
-                <a href = "mailto:kukicako1@gmail.com?subject = Feedbackbody = Message"><img className="facebook" src={gmail}></img></a>
+                <a href = "mailto:kukicako1@gmail.com?subject = Feedbackbody = Message"><img className="facebook" src={gmail} alt="gmail"></img></a>
                 </div>
             </div>
             
