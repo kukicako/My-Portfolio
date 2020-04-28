@@ -25,7 +25,7 @@ function About(){
 
                 <div className="about-text-contain">
                     <p className="about-text">I am a Full Stack Web Developer located in Las Vegas, Nevada. I am passionate and detail oriented especially in the creation of new projects or ideas. On top of that I am focused on making an impact through the development of creative technologies. I bring Strong collaborative skills, a proven history of website and application development, strong analytical skills with focus on accurate and prompt results, and a high personal level of integrity with a dynamic balance of people skills.</p>
-                    <p className="about-text">Outside of coding I enjoy a wide array of activities such as: Listening to podcasts, following and playing basketball, playing video games, listening to music, and biking. I am a huge Lakers fan and basketball nerd so feel free to messsage me on social media and trash talk my favorite teams. </p>
+                    <p className="about-text">Outside of coding I enjoy a wide array of activities such as: Listening to podcasts, biking, playing video games, listening to music, and following basketball. I am a huge Lakers fan and basketball nerd so feel free to messsage me on social media and trash talk my favorite teams. </p>
                 </div>
 
             </div>
