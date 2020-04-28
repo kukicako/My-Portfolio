@@ -11,7 +11,7 @@ function Nav(){
             </Link>
             <div className="nav-links">
                 <a href="https://github.com/kukicako" className="portfolio" >Github</a>
-                <a href="#homepage-anchor" className="portfolio">Portfolio</a>
+                <a href="/" className="portfolio">Portfolio</a>
                 <Link to="/about" className="portfolio">About Me</Link>
                 <a href="#contact-me"className="portfolio">Contact</a>
                 {/* <img className="nav-image" src={code} alt="coder"></img> */}
