@@ -7,6 +7,8 @@ import swole from '../images/swole.png'
 import soup from '../images/soup.png'
 import mouse from '../images/mouse.png'
 import down from '../images/down.png'
+import kanye from '../images/kanye.jpg'
+
 function Homepage(){
     return(
         <div className="homepage">
@@ -22,10 +24,10 @@ function Homepage(){
             <div id="homepage-anchor" />
             <div className="projects-container">
                 <div className="project1">
-                   <a className="link" href="https://v1.citrics.io/"> <img className="citrics" src={citrics } alt="website1"></img></a>
+                   <a className="link" href="https://gyazo.com/602c913629aa51734ad41ac6f82e66eb"> <img className="citrics" src={citrics } alt="website1"></img></a>
                 </div>
-                <div className="project2">
-                    <a className="link" href="https://pathways-fe-omega.now.sh/game"><img className="pathways" src={pathways} alt="Pathways To Destiny"></img></a>
+                <div className="project6">
+                    <a className="link" href="https://kanye-motivate.now.sh/"><img className="kanye" src={kanye} alt="Kanye West"></img></a>
                 </div>
                 <div className="project3">
                    <a  className="link" href="https://counter-tony.now.sh/"> <p className="teacher">CSGO-Teacher</p></a>
@@ -36,20 +38,16 @@ function Homepage(){
 
             
             <div className="projects-container">
+                <div className="project2">
+                    <a className="link" href="https://pathways-fe-omega.now.sh/game"><img className="pathways" src={pathways} alt="Pathways To Destiny"></img></a>
+                </div>
                 <div className="project4">
-                    <a className="link" href="https://weight-lifting-journal-getswole.netlify.app/"><img className="swole" src={swole} alt="swole" /></a>
+                    <a className="link" href="https://snake-zeta.vercel.app/"><img className="swole" src={swole} alt="swole" /></a>
                 </div>
                 <div className="project5">
                      <a  classname="link" href="https://serve-soup.netlify.app/"><img className="soup" src={soup} alt="ill serve soup" /></a>
                 </div>
-                <div className="project6">
-                    <a className="link" href="https://build-week-corporate-event-planner-rm.github.io/Marketing/"><div className="planner">
-                        <img className="mouse" src={mouse} alt="mouse"></img> 
-                        <p className="plan">One Click</p>
-                        <p className="plan1">Planning</p> 
-                    </div></a>  
-                    
-                </div>
+                
 
             </div>
 
